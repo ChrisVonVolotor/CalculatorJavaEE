@@ -10,8 +10,8 @@ public class MultiplyTest {
 	@Test
 	public void test() {
 		Multiply calc = new Multiply();
-		int actualValue = calc.multiply(3, 2);
-		Assert.assertEquals(6, actualValue);
+		double actualValue = calc.multiply(3, 2);
+		Assert.assertEquals(6, actualValue,0.00001);
 	}
 
 }

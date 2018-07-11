@@ -10,8 +10,8 @@ public class SubtractTest {
 	@Test
 	public void test() {
 		Subtract calc = new Subtract();
-		int actualValue = calc.subtract(3, 2);
-		Assert.assertEquals(1, actualValue);
+		double actualValue = calc.subtract(3.0, 2.0);
+		Assert.assertEquals(1, actualValue,0.00001);
 	}
 
 }

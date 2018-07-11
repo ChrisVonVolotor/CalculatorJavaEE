@@ -10,8 +10,8 @@ public class refactorAddTest {
 	@Test
 	public void test() {
 		Add calc = new Add();
-		int actualValue = calc.add(2, 2);
-		Assert.assertEquals(4, actualValue);
+		double actualValue = calc.add(2.0, 2.0);
+		Assert.assertEquals(4, actualValue,0.00001);
 	}
 
 }
